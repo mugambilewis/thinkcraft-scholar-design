@@ -87,7 +87,7 @@ const Hero = () => {
                   </h1>
                  
                  <p className="text-body-large mb-8 mx-auto leading-relaxed text-white/95 drop-shadow-lg font-light">
-                  Boost sales with AI powered funnels, real time analytics, and high converting UX. Roboleads turns clicks into customers.
+                  Boost sales with AI powered funnels, real time analytics, and high converting UX. ThinkCraft turns clicks into customers.
 
                   </p>
                 </div>

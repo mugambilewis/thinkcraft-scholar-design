@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Roboleads completely transformed how we run client operations. Their automation systems saved us 20+ hours per week.",
+      quote: "ThinkCraft completely transformed how we run client operations. Their automation systems saved us 20+ hours per week.",
       author: "Sarah Chen",
       role: "CEO, Digital Growth Agency",
       rating: 5

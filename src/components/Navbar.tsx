@@ -83,7 +83,7 @@ const Navbar = () => {
             style={{ color: '#092C5D' }}
             onClick={() => navigate('/')}
           >
-            Roboleads
+            ThinkCraft
           </div>
 
           {/* Desktop Navigation */}

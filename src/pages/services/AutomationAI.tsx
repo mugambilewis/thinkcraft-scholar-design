@@ -8,10 +8,10 @@ import { useEffect } from "react";
 
 const AutomationAI = () => {
   useEffect(() => {
-    document.title = "Automation & AI Services | Roboleads";
+    document.title = "Automation & AI Services | ThinkCraft";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Scale your business with AI-powered automation. Save time and boost efficiency with intelligent solutions from Roboleads.");
+      metaDescription.setAttribute("content", "Scale your business with AI-powered automation. Save time and boost efficiency with intelligent solutions from ThinkCraft.");
     }
   }, []);
 

@@ -22,7 +22,7 @@ const AboutUs = () => {
 
               <div className="space-y-3">
                 <p className="text-body text-[#092C5D]/80 leading-relaxed">
-                  At Roboleads, we specialize in creating AI-powered, SEO-optimized, and automation-driven websites that work for you 24/7. We believe that a website should be more than just an online presence—it should be a powerful business tool that attracts leads, automates processes, and drives revenue effortlessly.
+                  At ThinkCraft, we specialize in creating AI-powered, SEO-optimized, and automation-driven websites that work for you 24/7. We believe that a website should be more than just an online presence—it should be a powerful business tool that attracts leads, automates processes, and drives revenue effortlessly.
                 </p>
                 
                 <p className="text-body text-[#092C5D]/80 leading-relaxed">

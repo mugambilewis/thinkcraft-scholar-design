@@ -8,10 +8,10 @@ import { useEffect } from "react";
 
 const MobileAppManageable = () => {
   useEffect(() => {
-    document.title = "Mobile App Manageable Services | Roboleads";
+    document.title = "Mobile App Manageable Services | ThinkCraft";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Manage your website from anywhere with seamless mobile app integration. Control and monitor your site on the go with Roboleads.");
+      metaDescription.setAttribute("content", "Manage your website from anywhere with seamless mobile app integration. Control and monitor your site on the go with ThinkCraft.");
     }
   }, []);
 

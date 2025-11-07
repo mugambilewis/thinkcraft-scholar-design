@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                <span className="text-[#092C5D] font-bold text-xl">R</span>
+                <span className="text-[#092C5D] font-bold text-xl">T</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-white">ROBOLEADS</h3>
+                <h3 className="text-2xl font-bold text-white">THINKCRAFT</h3>
                 <p className="text-body-small text-white">WEBSITE AUTOMATION AGENCY</p>
               </div>
             </div>
@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
             
             <div className="space-y-2">
-              <p className="text-white text-body-small">Email: info@roboleads.com</p>
+              <p className="text-white text-body-small">Email: info@thinkcraft.com</p>
               <p className="text-white text-body-small">Phone: (555) 123-4567</p>
             </div>
           </div>
@@ -99,7 +99,7 @@ const Footer = () => {
         <div className="border-t border-[#00B3A4] pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-[#00B3A4] text-body-small mb-4 md:mb-0">
-              © Roboleads Agency All Rights Reserved
+              © ThinkCraft Agency All Rights Reserved
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy-policy" className="text-[#00B3A4] hover:text-white transition-colors text-sm">

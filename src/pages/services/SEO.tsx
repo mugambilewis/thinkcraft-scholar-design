@@ -8,10 +8,10 @@ import { useEffect } from "react";
 
 const SEO = () => {
   useEffect(() => {
-    document.title = "SEO Services | Roboleads";
+    document.title = "SEO Services | ThinkCraft";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Boost search visibility and grow your organic traffic with professional SEO strategies from Roboleads.");
+      metaDescription.setAttribute("content", "Boost search visibility and grow your organic traffic with professional SEO strategies from ThinkCraft.");
     }
   }, []);
 

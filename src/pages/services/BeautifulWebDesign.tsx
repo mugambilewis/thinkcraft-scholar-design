@@ -8,10 +8,10 @@ import { useEffect } from "react";
 
 const BeautifulWebDesign = () => {
   useEffect(() => {
-    document.title = "Beautiful Web Design Services | Roboleads";
+    document.title = "Beautiful Web Design Services | ThinkCraft";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Modern, responsive, and high-performance web design that converts. Beautiful websites crafted by Roboleads.");
+      metaDescription.setAttribute("content", "Modern, responsive, and high-performance web design that converts. Beautiful websites crafted by ThinkCraft.");
     }
   }, []);
 

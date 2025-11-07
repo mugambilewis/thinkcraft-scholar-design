@@ -8,10 +8,10 @@ import { useEffect } from "react";
 
 const LeadCapturing = () => {
   useEffect(() => {
-    document.title = "Lead Capturing Services | Roboleads";
+    document.title = "Lead Capturing Services | ThinkCraft";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Turn visitors into loyal customers with powerful lead capture tools and conversion optimization from Roboleads.");
+      metaDescription.setAttribute("content", "Turn visitors into loyal customers with powerful lead capture tools and conversion optimization from ThinkCraft.");
     }
   }, []);
 
