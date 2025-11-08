@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
                     </div>
                     <div>
                       <span className="font-semibold text-white">{feature.title}</span>
-                      <span className="text-foreground/80"> - {feature.description}</span>
+                      <span className="text-white"> - {feature.description}</span>
                     </div>
                   </div>
                 ))}

@@ -64,6 +64,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
+        'sans': ['Montserrat', 'Space Grotesk', 'Inter', 'sans-serif'],
+        'montserrat': ['Montserrat', 'Space Grotesk', 'Inter', 'sans-serif'],
         'space-grotesk': ['Space Grotesk', 'sans-serif'],
         'inter': ['Inter', 'sans-serif'],
       },

@@ -60,7 +60,7 @@ const Hero = () => {
           <source src="/videos/hero video.mp4" type="video/mp4" />
         </video>
         {/* Elegant overlay gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#092C5D]/80 via-[#092C5D]/70 to-[#00B3A4]/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#092C5D]/80 via-[#092C5D]/70 to-[#092C5D]/60"></div>
       </div>
 
 
@@ -77,7 +77,7 @@ const Hero = () => {
                 {/* Headline with elegant styling */}
                 <div className="space-y-6">
                   <h1 className="text-heading-1 md:text-heading-1 lg:text-heading-1 font-bold leading-tight text-white drop-shadow-2xl">
-                    <div className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">You're one step away from</div>
+                    <div className="text-3xl md:text-5xl font-bold mb-6 animate-fade-in">ThinkCraft Scholar & Design Solutions</div>
                     <div className="text-[#00B3A4] min-h-[1.2em] flex items-center justify-center">
                       <span className="text-heading-2 md:text-heading-2 lg:text-heading-2">
                         {currentText}
