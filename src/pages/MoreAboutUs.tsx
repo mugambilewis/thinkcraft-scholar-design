@@ -21,7 +21,7 @@ const MoreAboutUs = () => {
           <h1 className="text-heading-1 sm:text-heading-1 lg:text-heading-1 font-bold text-foreground mb-6 leading-tight">
             Who We Are — The Team Behind ThinkCraft
           </h1>
-          <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-body text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             ThinkCraft Scholar & Design Solutions is a creative and academic hub built to support learners and innovators globally. Our mission is to bridge the gap between <strong>knowledge and creation</strong>, providing design and documentation solutions that inspire confidence and success.
           </p>
         </div>
@@ -34,7 +34,7 @@ const MoreAboutUs = () => {
             <h2 className="text-heading-2 sm:text-heading-2 font-bold text-foreground mb-4">
               Our Mission
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-body text-muted-foreground max-w-2xl mx-auto">
               We understand that excellence is built on clarity, precision, and creativity. Our multidisciplinary team includes CAD experts, academic writers, developers, and designers who share one goal: to help you deliver your best work.
             </p>
           </div>
@@ -89,7 +89,7 @@ const MoreAboutUs = () => {
               <h2 className="text-heading-2 sm:text-heading-2 font-bold text-foreground mb-6">
                 Our Promise
               </h2>
-              <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+              <div className="space-y-6 text-body text-muted-foreground leading-relaxed">
                 <p>
                   We aim to make every client experience simple, supportive, and successful. Whether you need help with a report, a 3D design, or a website concept, ThinkCraft is your partner in excellence.
                 </p>
@@ -127,7 +127,7 @@ const MoreAboutUs = () => {
             <h2 className="text-heading-2 sm:text-heading-2 font-bold text-foreground mb-6">
               Ready to Get Started?
             </h2>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-body text-muted-foreground mb-8 max-w-2xl mx-auto">
               Contact us via WhatsApp: +1 (415) 418-5227 or reach out through our contact form. We'll guide you through every step.
             </p>
             <Button 

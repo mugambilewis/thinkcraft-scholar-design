@@ -20,7 +20,7 @@ const ServicesTabs = () => {
       image : "/images/SEO digital marketing concept.jpg",
       description: "Bring your mechanical or architectural ideas to life with precision 2D drawings and 3D models. Perfect for students, engineers, and innovators. We provide high-quality CAD drawings, 3D models, and simulations for students and professionals in mechanical, civil, and architectural fields.",
       cta: "See More →",
-      link: "/services/cad-engineering"
+      link: "/services/cad-engineering-design"
     },
     "Website": {
       title: "Website & UI Design",
@@ -36,7 +36,7 @@ const ServicesTabs = () => {
       image : "/images/lead generation concept, website conversion funnel.jpg",
       description: "From proposals to full reports, we simplify your academic and research projects with clarity, structure, and professional formatting. We help students at all levels structure, research, and present academic projects that meet institutional standards.",
       cta: "See More →",
-      link: "/services/academic-assistance"
+      link: "/services/academic-project-assistance"
     },
     "Assignment": {
       title: "Assignment Help & Tutoring",
@@ -44,7 +44,7 @@ const ServicesTabs = () => {
       image : "/images/automation and ai.jpg",
       description: "Personalized academic support for international students — guiding you to understand, not just submit. We provide personalized academic assistance for international students, helping you complete coursework, essays, and technical assignments on time.",
       cta: "See More →",
-      link: "/services/assignment-help"
+      link: "/services/assignment-help-tutoring"
     },
     "Documentation": {
       title: "Documentation & Formatting",
@@ -112,7 +112,7 @@ const ServicesTabs = () => {
                   </h3>
                 </div>
                 
-                <p className="text-[#092C5D] leading-relaxed text-base md:text-lg mb-4">
+                <p className="text-body text-[#092C5D] leading-relaxed mb-4">
                   {tabContent[activeTab].description}
                 </p>
 

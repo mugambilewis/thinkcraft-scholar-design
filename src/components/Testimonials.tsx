@@ -45,7 +45,7 @@ const Testimonials = () => {
                         <Star key={i} className="w-4 h-4 md:w-5 md:h-5 fill-[#00B3A4] text-[#00B3A4]" />
                       ))}
                     </div>
-                    <p className="text-white/90 mb-6 leading-relaxed text-base md:text-lg flex-grow">
+                    <p className="text-body text-white/90 mb-6 leading-relaxed flex-grow">
                       "{testimonial.quote}"
                     </p>
                     <div className="mt-auto">

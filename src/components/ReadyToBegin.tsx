@@ -19,7 +19,7 @@ const ReadyToBegin = () => {
           </div>
 
           {/* Descriptive Text */}
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-body text-gray-700 leading-relaxed max-w-3xl mx-auto">
             Whether you're a student racing against a deadline or a professional bringing a new idea to life — we're here to help you finish strong.
           </p>
 

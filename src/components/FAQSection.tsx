@@ -40,7 +40,7 @@ const FAQSection = () => {
             <h2 className="text-heading-1 md:text-heading-1 font-bold text-white mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-xl text-white leading-relaxed">
+            <p className="text-body text-white leading-relaxed">
               Everything you need to know about ThinkCraft Scholar & Design Solutions
             </p>
           </div>
@@ -62,7 +62,7 @@ const FAQSection = () => {
                 </button>
                 {openAccordion === index && (
                   <div className="px-6 pb-4 bg-white">
-                    <p className="text-[#092C5D]  leading-relaxed">{item.answer}</p>
+                    <p className="text-body text-[#092C5D] leading-relaxed">{item.answer}</p>
                   </div>
                 )}
               </div>
@@ -71,7 +71,7 @@ const FAQSection = () => {
 
           {/* Contact CTA */}
           <div className="pt-8">
-            <p className="text-white text-lg">
+            <p className="text-body text-white">
               Have more questions in mind? Contact us and our team will answer all your questions.
             </p>
           </div>
