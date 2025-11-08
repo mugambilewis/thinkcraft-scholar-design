@@ -8,7 +8,6 @@ import AboutUs from "@/components/AboutUs";
 import Testimonials from "@/components/Testimonials";
 import FAQSection from "@/components/FAQSection";
 import ReadyToBegin from "@/components/ReadyToBegin";
-import Integrations from "@/components/Integrations";
 import ChatWidget from "@/components/ChatWidget";
 
 const Index = () => {
@@ -17,9 +16,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <TrustBar />
-      {/* <Integrations /> */}
       <ServicesTabs />
-      
       <Services />
       <WhyChooseUs />
       <AboutUs />

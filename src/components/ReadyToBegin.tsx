@@ -20,13 +20,13 @@ const ReadyToBegin = () => {
 
           {/* Descriptive Text */}
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
-            Why delay the growth of your business any longer? Seize the opportunity to have a website that functions tirelessly around the clock, working for you every minute of the day, every day of the week!
+            Whether you're a student racing against a deadline or a professional bringing a new idea to life — we're here to help you finish strong.
           </p>
 
           {/* CTA Button */}
           <div className="pt-6">
             <Button className="bg-[#00B3A4] hover:bg-[#00B3A4]/90 text-[#092C5D] font-bold px-8 py-4 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-              BOOK APPOINTMENT
+              Let's Get Started →
             </Button>
           </div>
         </div>

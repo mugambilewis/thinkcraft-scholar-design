@@ -6,24 +6,16 @@ const FAQSection = () => {
 
   const faqItems = [
     {
-      question: "What makes your websites different from traditional websites?",
-      answer: "Our Smart Websites are AI-powered, SEO-optimized, and automation-driven. Unlike traditional static sites, they work 24/7 to attract leads, automate processes, and drive revenue without constant manual intervention."
+      question: "Do you assist with academic writing or just formatting?",
+      answer: "We handle both — from structuring ideas to formatting in any required academic style."
     },
     {
-      question: "How does SEO improve my website's performance?",
-      answer: "SEO optimization increases your website's visibility on search engines, driving more organic traffic. Our Smart Websites are built with technical SEO best practices, fast loading speeds, and content optimization to help you rank higher and get found by your ideal customers."
+      question: "Are your CAD and design services suitable for beginners?",
+      answer: "Yes! We work with students learning CAD as well as professionals needing complex design outputs."
     },
     {
-      question: "Can I really manage my website from my mobile phone?",
-      answer: "Absolutely! Our mobile-friendly management app lets you update content, track analytics, respond to leads, and monitor your website's performance from anywhere. Stay in control of your business even when you're on the go."
-    },
-    {
-      question: "What automation and AI features do you offer?",
-      answer: "We provide AI-powered chatbots, automated email sequences, lead nurturing workflows, customer engagement tools, and intelligent form responses. These features work together to automate your sales and marketing processes, saving you time while maximizing conversions."
-    },
-    {
-      question: "How do lead capturing tools help grow my business?",
-      answer: "Our intelligent lead capture systems use strategic forms, pop-ups, and conversion funnels to turn website visitors into qualified prospects. With automated follow-up sequences and CRM integration, you'll never miss a potential customer again."
+      question: "How can I get started?",
+      answer: "Simply reach out via our contact form or WhatsApp (+1 415 418 5227). We'll guide you through every step."
     }
   ];
 
@@ -32,7 +24,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="py-24 md:py-32 relative overflow-hidden bg-[#092C5D]">
+    <section id="faqs" className="py-24 md:py-32 relative overflow-hidden bg-[#092C5D]">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full opacity-60 transform -translate-x-16 -translate-y-16"></div>
@@ -44,12 +36,12 @@ const FAQSection = () => {
       <div className="container mx-auto px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div>
-            <p className="text-[#00B3A4] text-sm mb-2">About Us</p>
+            <p className="text-[#00B3A4] text-sm mb-2">FAQs</p>
             <h2 className="text-heading-1 md:text-heading-1 font-bold text-white mb-4">
-              Smart Websites, Smarter Growth
+              Frequently Asked Questions
             </h2>
             <p className="text-xl text-white leading-relaxed">
-              Your All-in-One Solution for SEO, Lead Capturing, Automation & More
+              Everything you need to know about ThinkCraft Scholar & Design Solutions
             </p>
           </div>
 

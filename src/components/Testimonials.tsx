@@ -3,27 +3,27 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "ThinkCraft completely transformed how we run client operations. Their automation systems saved us 20+ hours per week.",
-      author: "Sarah Chen",
-      role: "CEO, Digital Growth Agency",
+      quote: "ThinkCraft helped me perfect my engineering project and CAD report before submission. Highly recommend their professional touch!",
+      author: "David",
+      role: "University of Leeds",
       rating: 5
     },
     {
-      quote: "We automated our entire onboarding system and doubled our response speed. The ROI was immediate.",
-      author: "Marcus Williams",
-      role: "Founder, TechStart Solutions",
+      quote: "A reliable team that delivered an entire UI project in less than a week. Amazing communication and detail.",
+      author: "Sophia",
+      role: "Business Consultant",
       rating: 5
     },
     {
-      quote: "The team's expertise in CRM and workflow automation is unmatched. They truly understand modern business needs.",
-      author: "Emily Rodriguez",
-      role: "COO, Scale Ventures",
+      quote: "ThinkCraft helped me perfect my engineering project and CAD report before submission. Highly recommend their professional touch!",
+      author: "David",
+      role: "University of Leeds",
       rating: 5
     }
   ];
 
   return (
-    <section className="py-24 md:py-32 bg-white">
+    <section id="testimonials" className="py-24 md:py-32 bg-white">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-heading-2 md:text-heading-1 font-bold mb-6 text-[#092C5D]">

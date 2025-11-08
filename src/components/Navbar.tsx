@@ -84,6 +84,9 @@ const Navbar = () => {
             onClick={() => navigate('/')}
           >
             ThinkCraft
+            <div className="text-xs font-normal italic" style={{ color: '#00B3A4' }}>
+              Empowering Students. Supporting Professionals.
+            </div>
           </div>
 
           {/* Desktop Navigation */}
@@ -164,34 +167,37 @@ const Navbar = () => {
               ABOUT US
             </a>
             
+            <a 
+              href="#testimonials" 
+              className="text-sm font-medium transition-colors hover:opacity-80"
+              style={{ color: '#092C5D' }}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick('#testimonials');
+              }}
+            >
+              TESTIMONIALS
+            </a>
+            
+            <a 
+              href="#faqs" 
+              className="text-sm font-medium transition-colors hover:opacity-80"
+              style={{ color: '#092C5D' }}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick('#faqs');
+              }}
+            >
+              FAQs
+            </a>
+            
             <Link
               to="/contact"
               className="text-sm font-medium transition-colors hover:opacity-80"
               style={{ color: '#092C5D' }}
              >
-              CONTACT
+              CONTACT / GET STARTED
             </Link>
-
-            <Link
-              to="/pricing"
-              className="text-sm font-medium transition-colors hover:opacity-80"
-              style={{ color: '#092C5D' }}
-            >
-              PRICING
-            </Link>
-            <Button
-              className="text-white font-medium px-6 py-2 rounded-md transition-all hover:opacity-90 hover:shadow-lg"
-              
-            >
-                  <Link
-                  to="/book-appointment"
-                  
-                  
-                >
-                 BOOK APPOINTMENT
-                </Link>
-              
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -270,54 +276,29 @@ const Navbar = () => {
               ABOUT US
             </a>
             
-            {/* Mobile Dropdown */}
-            <div>
-              <button
-                className="text-sm font-medium py-2 px-4 rounded-md transition-colors hover:bg-gray-50 w-full text-left flex items-center justify-between"
-                style={{ color: '#092C5D' }}
-                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              >
-                RESOURCES
-                <ChevronDown size={16} className={`transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
-              </button>
-              
-              {isDropdownOpen && (
-                <div className="ml-4 mt-2 space-y-2">
-                  <Link
-                    to="/community"
-                    className="block text-sm py-2 px-4 rounded-md transition-colors hover:bg-gray-50"
-                    style={{ color: '#092C5D' }}
-                    onClick={() => setIsOpen(false)}
-                  >
-                    👥 Community
-                  </Link>
-                  <Link
-                    to="/support"
-                    className="block text-sm py-2 px-4 rounded-md transition-colors hover:bg-gray-50"
-                    style={{ color: '#092C5D' }}
-                    onClick={() => setIsOpen(false)}
-                  >
-                    🎧 Support
-                  </Link>
-                  <Link
-                    to="/library"
-                    className="block text-sm py-2 px-4 rounded-md transition-colors hover:bg-gray-50"
-                    style={{ color: '#092C5D' }}
-                    onClick={() => setIsOpen(false)}
-                  >
-                    📚 Questions Library
-                  </Link>
-                  <Link
-                    to="/docs"
-                    className="block text-sm py-2 px-4 rounded-md transition-colors hover:bg-gray-50"
-                    style={{ color: '#092C5D' }}
-                    onClick={() => setIsOpen(false)}
-                  >
-                    📄 Documentation
-                  </Link>
-                </div>
-              )}
-            </div>
+            <a 
+              href="#testimonials" 
+              className="text-sm font-medium py-2 px-4 rounded-md transition-colors hover:bg-gray-50"
+              style={{ color: '#092C5D' }}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick('#testimonials');
+              }}
+            >
+              TESTIMONIALS
+            </a>
+            
+            <a 
+              href="#faqs" 
+              className="text-sm font-medium py-2 px-4 rounded-md transition-colors hover:bg-gray-50"
+              style={{ color: '#092C5D' }}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick('#faqs');
+              }}
+            >
+              FAQs
+            </a>
 
             <Link
                to="/contact"
@@ -325,25 +306,8 @@ const Navbar = () => {
               style={{ color: '#092C5D' }}
               onClick={() => navigate('/contact')}
             >
-              CONTACT
+              CONTACT / GET STARTED
             </Link>
-            <Link
-              to="/pricing"
-              className="text-sm font-medium py-2 px-4 rounded-md transition-colors hover:bg-gray-50"
-              style={{ color: '#092C5D' }}
-              onClick={() => setIsOpen(false)}
-            >
-              PRICING
-            </Link>
-            <Button
-              className="text-white font-medium w-full py-2 rounded-md transition-all hover:opacity-90 hover:shadow-lg"
-              style={{ backgroundColor: '#00B3A4' }}
-              onClick={() => navigate("/book-appointment")}
-            >
-              <Calendar className="w-6 h-6 mr-3" />
-                Book Free Consultation
-                <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
-            </Button>
                 
 
           </div>

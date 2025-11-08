@@ -12,11 +12,11 @@ const Hero = () => {
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const phrases = [
-    "tripling your monthly website traffic with AI-powered SEO.",
-    "ranking #1 on Google for your highest-value keywords.",
-    "generating 4x more qualified leads through smart automation.",
-    "turning clicks into conversions with high-performance UX.",
-    "building a 24/7 growth engine fueled by data and strategy."
+    "academic projects and CAD models.",
+    "websites, UI designs, and technical documentation.",
+    "complete, high-quality work for students and professionals.",
+    "guidance, creativity, and reliability — all in one place.",
+    "transforming concepts into precision solutions."
   ];
 
   useEffect(() => {
@@ -77,7 +77,7 @@ const Hero = () => {
                 {/* Headline with elegant styling */}
                 <div className="space-y-6">
                   <h1 className="text-heading-1 md:text-heading-1 lg:text-heading-1 font-bold leading-tight text-white drop-shadow-2xl">
-                    <div className="text-3xl md:text-5xl font-bold mb-6 animate-fade-in">ThinkCraft Scholar & Design Solutions</div>
+                    <div className="text-3xl md:text-5xl font-bold mb-6 animate-fade-in">Where Ideas Meet Precision — and Deadlines Meet Solutions.</div>
                     <div className="text-[#00B3A4] min-h-[1.2em] flex items-center justify-center">
                       <span className="text-2xl md:text-heading-2 lg:text-heading-2">
                         {currentText}
@@ -87,7 +87,8 @@ const Hero = () => {
                   </h1>
                  
                  <p className="text-body-large mb-8 mx-auto leading-relaxed text-white/95 drop-shadow-lg font-light">
-                  Boost sales with AI powered funnels, real time analytics, and high converting UX. ThinkCraft turns clicks into customers.
+                  At <strong>ThinkCraft Scholar & Design Solutions</strong>, we help <strong>students and professionals</strong> transform concepts into complete, high-quality work — from <strong>academic projects and CAD models</strong> to <strong>websites, UI designs, and technical documentation</strong>.
+                  Experience guidance, creativity, and reliability — all in one place.
 
                   </p>
                 </div>
@@ -99,7 +100,13 @@ const Hero = () => {
                     className="text-[#092C5D] font-bold text-lg px-10 py-6 rounded-full shadow-2xl hover:shadow-[#00B3A4]/50 transition-all duration-300 hover:scale-110 border-2 border-white/20" 
                     style={{ backgroundColor: '#00B3A4' }}
                   >
-                    GET A FREE AUDIT TODAY!
+                    Get Academic Help
+                  </Button>
+                  <Button 
+                    size="lg" 
+                    className="text-white font-bold text-lg px-10 py-6 rounded-full shadow-2xl hover:shadow-white/50 transition-all duration-300 hover:scale-110 border-2 border-white/20 bg-transparent" 
+                  >
+                    Explore Professional Services
                   </Button>
                 </div>
                 

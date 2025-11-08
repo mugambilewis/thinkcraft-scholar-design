@@ -3,56 +3,56 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const ServicesTabs = () => {
-  const [activeTab, setActiveTab] = useState("SEO");
+  const [activeTab, setActiveTab] = useState("CAD");
 
   const tabs = [
-    { id: "SEO", label: "SEO" },
-    { id: "Lead Capturing", label: "Lead Capturing" },
-    { id: "Automation and Ai", label: "Automation and Ai" },
-    { id: "Beautiful Web Design", label: "Beautiful Web Design" },
-    { id: "Mobile App Manageable", label: "Mobile App Manageable" }
+    { id: "CAD", label: "CAD & Engineering Design" },
+    { id: "Website", label: "Website & UI Design" },
+    { id: "Academic", label: "Academic & Project Assistance" },
+    { id: "Assignment", label: "Assignment Help & Tutoring" },
+    { id: "Documentation", label: "Documentation & Formatting" }
   ];
 
   const tabContent = {
-    "SEO": {
-      title: "SEO",
-      subtitle: "Rank Higher, Get Found, Grow Faster",
+    "CAD": {
+      title: "CAD & Engineering Design",
+      subtitle: "From Sketch to Model — Precision that Speaks Design",
       image : "/images/SEO digital marketing concept.jpg",
-      description: "Boost your website's visibility with cutting-edge SEO strategies that drive organic traffic and improve search rankings. We optimize your content, structure, and keywords to ensure your site stands out on Google and other search engines. Stay ahead of competitors with data-driven insights and continuous performance monitoring.",
-      cta: "LEARN MORE",
-      link: "/services/seo"
+      description: "Bring your mechanical or architectural ideas to life with precision 2D drawings and 3D models. Perfect for students, engineers, and innovators. We provide high-quality CAD drawings, 3D models, and simulations for students and professionals in mechanical, civil, and architectural fields.",
+      cta: "See More →",
+      link: "/services/cad-engineering"
     },
-    "Lead Capturing": {
-      title: "Lead Capturing",
-      subtitle: "Convert Visitors Into Customers",
-      image : "/images/lead generation concept, website conversion funnel.jpg",
-      description: "Transform your website traffic into qualified leads with our advanced lead capture systems. We implement strategic forms, landing pages, and conversion funnels that turn visitors into prospects. Our data-driven approach ensures maximum ROI from every visitor.",
-      cta: "LEARN MORE",
-      link: "/services/lead-capturing"
-    },
-    "Automation and Ai": {
-      title: "Automation and Ai",
-      subtitle: "Work Smarter, Not Harder",
-      image : "/images/automation and ai.jpg",
-      description: "Streamline your business operations with intelligent automation and AI-powered solutions. From customer service chatbots to automated email sequences, we help you scale efficiently while maintaining personal touch with your customers.",
-      cta: "LEARN MORE",
-      link: "/services/automation-ai"
-    },
-    "Beautiful Web Design": {
-      title: "Beautiful Web Design",
-      subtitle: "Stunning Sites That Convert",
+    "Website": {
+      title: "Website & UI Design",
+      subtitle: "Designs that Speak, Websites that Work",
       image : "/images/modern website design.jpg",
-      description: "Create visually stunning websites that not only look amazing but also drive conversions. Our design team combines aesthetics with functionality to deliver user experiences that engage visitors and turn them into loyal customers.",
-      cta: "LEARN MORE",
-      link: "/services/beautiful-web-design"
+      description: "Clean, responsive, and user-centered websites built to impress. From portfolios to professional sites, we craft digital experiences that connect. We create modern, responsive websites that elevate your online identity.",
+      cta: "See More →",
+      link: "/services/website-ui-design"
     },
-    "Mobile App Manageable": {
-      title: "Mobile App Manageable",
-      subtitle: "Control Everything On The Go",
+    "Academic": {
+      title: "Academic & Project Assistance",
+      subtitle: "Transforming Research Ideas into Complete Academic Projects",
+      image : "/images/lead generation concept, website conversion funnel.jpg",
+      description: "From proposals to full reports, we simplify your academic and research projects with clarity, structure, and professional formatting. We help students at all levels structure, research, and present academic projects that meet institutional standards.",
+      cta: "See More →",
+      link: "/services/academic-assistance"
+    },
+    "Assignment": {
+      title: "Assignment Help & Tutoring",
+      subtitle: "Guided Learning. Reliable Results.",
+      image : "/images/automation and ai.jpg",
+      description: "Personalized academic support for international students — guiding you to understand, not just submit. We provide personalized academic assistance for international students, helping you complete coursework, essays, and technical assignments on time.",
+      cta: "See More →",
+      link: "/services/assignment-help"
+    },
+    "Documentation": {
+      title: "Documentation & Formatting",
+      subtitle: "Professional Formatting that Commands Attention",
       image : "/images/business management mobile app dashboard.jpg",
-      description: "Manage your entire business ecosystem from anywhere with our comprehensive mobile app. Track leads, monitor performance, communicate with clients, and make data-driven decisions all from the palm of your hand.",
-      cta: "LEARN MORE",
-      link: "/services/mobile-app-manageable"
+      description: "We refine your work to meet international academic and business standards (APA, IEEE, MLA, and more). We refine your work to align with global academic and business standards, ensuring it looks polished, credible, and compliant with any required formatting style.",
+      cta: "See More →",
+      link: "/services/documentation-formatting"
     }
   };
 

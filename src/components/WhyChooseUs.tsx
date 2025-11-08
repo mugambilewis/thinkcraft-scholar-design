@@ -6,20 +6,20 @@ const WhyChooseUs = () => {
   const navigate = useNavigate();
   const features = [
     {
-      title: "AI-Powered Marketing",
-      description: "Automate email follow-ups, chatbots, and customer engagement"
+      title: "Experience Across Fields",
+      description: "Our diverse team understands both academic and professional needs, offering tailored solutions for every goal."
     },
     {
-      title: "Built-in Lead Generation", 
-      description: "Capture and nurture leads with intelligent forms & pop-ups"
+      title: "Clarity and Communication", 
+      description: "We keep every step transparent — updates, drafts, and progress reports ensure your satisfaction."
     },
     {
-      title: "SEO & Speed Optimized",
-      description: "Fast-loading and Google-friendly for maximum visibility"
+      title: "Time-Conscious and Detail-Driven",
+      description: "We value your deadlines as much as you do. Expect timely delivery with top-tier accuracy."
     },
     {
-      title: "Conversion-Focused Design",
-      description: "Proven layouts designed to turn visitors into customers"
+      title: "Global Reach, Local Understanding",
+      description: "We support students and professionals from universities and industries across the USA, UK, Canada, and Australia."
     }
   ];
 
@@ -46,17 +46,13 @@ const WhyChooseUs = () => {
               <div>
                 <p className="text-sm text-[#00B3A4] mb-2">Why Choose Us</p>
                 <h2 className="text-heading-1 md:text-heading-1 font-bold mb-3 text-white">
-                  WHY CHOOSE A{" "}
-                  <span className="text-[#00B3A4]">SMART WEBSITE?</span>
+                  WHY CHOOSE{" "}
+                  <span className="text-[#00B3A4]">THINKCRAFT?</span>
                 </h2>
                 <p className="text-body-small text-white mb-4">
-                  Traditional websites are outdated. Smart Websites are the future.
+                  Excellence through collaboration, precision, and global understanding.
                 </p>
               </div>
-
-              <p className="text-body text-white leading-relaxed mb-6">
-                A regular website just sits there. A Smart Website works for you, helping you attract leads, automate tasks, and grow your business without extra effort.
-              </p>
 
               <div className="space-y-3">
                 {features.map((feature, index) => (
@@ -73,9 +69,9 @@ const WhyChooseUs = () => {
               </div>
 
               <div className="pt-2">
-                <Button className="bg-[#00B3A4] hover:bg-[#00B3A4]/90 text-[#092C5D] font-bold px-6 py-2 rounded-lg" onClick={() => navigate('/pricing')}>
+                <Button className="bg-[#00B3A4] hover:bg-[#00B3A4]/90 text-[#092C5D] font-bold px-6 py-2 rounded-lg" onClick={() => navigate('/contact')}>
                   
-                  CHECK PLAN OFFERS
+                  GET STARTED
                 </Button>
               </div>
             </div>

@@ -31,30 +31,31 @@ const ChatWidget = () => {
 
 BUSINESS INFORMATION:
 - Company: ThinkCraft Scholar & Design Solutions
-- Main Service: AI powered funnels, real time analytics, and high converting UX
-- Goal: Turn clicks into customers
-- Special Offer: FREE AUDIT available
+- Main Services: Academic projects, CAD models, websites, UI designs, technical documentation
+- Goal: Help students and professionals transform concepts into complete, high-quality work
+- Tagline: Empowering Students. Supporting Professionals.
 
 YOUR ROLE:
 - Be friendly, professional, and helpful
 - Answer questions about our services
-- Guide visitors toward booking a free audit
+- Guide visitors toward getting academic help or exploring professional services
 - Keep responses concise (2-3 sentences unless more detail is needed)
 
 SERVICES WE OFFER:
-- AI-Powered Sales Funnels: Custom-built conversion funnels optimized by AI
-- Real-Time Analytics: Track visitor behavior and conversion metrics instantly
-- High-Converting UX Design: User experiences designed to maximize conversions
-- Website Optimization: Performance and conversion rate optimization
-- Custom Integrations: Connect your tools and automate workflows
+- CAD & Engineering Design: Precision 2D drawings and 3D models for students and professionals
+- Website & UI Design: Clean, responsive, user-centered websites and portfolios
+- Academic & Project Assistance: From proposals to full reports with clarity and structure
+- Assignment Help & Tutoring: Personalized academic support for international students
+- Documentation & Formatting: Professional formatting in APA, IEEE, MLA, Chicago, and more
 
 ABOUT US:
-ThinkCraft Scholar & Design Solutions specializes in transforming digital presence into revenue-generating machines. We combine cutting-edge AI technology with proven design principles to create experiences that convert visitors into customers.
+ThinkCraft Scholar & Design Solutions is a multidisciplinary team passionate about design, learning, and innovation. We combine academic insight, technical skill, and creative design to craft meaningful solutions for students, researchers, and professionals.
 
 CONTACT:
-Ready to boost your conversions? Book your FREE audit today and discover how we can transform your digital presence!
+WhatsApp: +1 (415) 418-5227
+Ready to get started? Contact us and we'll guide you through every step!
 
-Remember: Always be helpful and encourage visitors to get their free audit!`;
+Remember: Always be helpful and encourage visitors to reach out for assistance!`;
 
       const conversationHistory = messages.slice(1).map(msg => ({
         role: msg.role === "assistant" ? "model" : "user",
@@ -62,44 +63,40 @@ Remember: Always be helpful and encourage visitors to get their free audit!`;
       }));
 
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAcgB9Fh61QmuwzdFO4Ug2GAFKUUuSOrhg`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAcgB9Fh61QmuwzdFO4Ug2GAFKUUuSOrhg`,
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
+            system_instruction: {
+              parts: [{ text: systemPrompt }]
+            },
             contents: [
               ...conversationHistory,
               {
                 role: "user",
-                parts: [{ text: `${systemPrompt}\n\nUser question: ${userMessage.content}` }]
+                parts: [{ text: userMessage.content }]
               }
             ],
             generationConfig: {
               temperature: 0.7,
               maxOutputTokens: 800,
               topP: 0.95,
-            },
-            safetySettings: [
-              {
-                category: "HARM_CATEGORY_HARASSMENT",
-                threshold: "BLOCK_MEDIUM_AND_ABOVE"
-              },
-              {
-                category: "HARM_CATEGORY_HATE_SPEECH",
-                threshold: "BLOCK_MEDIUM_AND_ABOVE"
-              }
-            ]
+            }
           })
         }
       );
 
       if (!response.ok) {
-        throw new Error(`API error: ${response.status}`);
+        const errorData = await response.json();
+        console.error("API Error Details:", errorData);
+        throw new Error(`API error: ${response.status} - ${JSON.stringify(errorData)}`);
       }
 
       const data = await response.json();
+      console.log("API Response:", data);
       
       if (data.candidates && data.candidates[0]?.content?.parts?.[0]?.text) {
         const assistantMessage = {
@@ -144,8 +141,8 @@ Remember: Always be helpful and encourage visitors to get their free audit!`;
           {/* Header */}
           <div className="p-4 bg-gradient-to-r from-[#00B3A4] to-[#00d4c3] flex justify-between items-center">
             <div>
-              <h2 className="font-bold text-lg">ThinkCraft AI</h2>
-              <p className="text-xs text-white/80">Always here to help ✨</p>
+              <h2 className="font-bold text-lg">ThinkCraft Specialist</h2>
+              <p className="text-xs text-white/80">Got a question? We're online and ready to help ✨</p>
             </div>
             <button
               onClick={() => setIsOpen(false)}

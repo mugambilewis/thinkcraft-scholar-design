@@ -19,13 +19,10 @@ const MoreAboutUs = () => {
       <section className="relative pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center animate-fade-in">
           <h1 className="text-heading-1 sm:text-heading-1 lg:text-heading-1 font-bold text-foreground mb-6 leading-tight">
-            Driven by Innovation,
-            <br />
-            <span className="text-primary">Defined by Results</span>
+            Who We Are — The Team Behind ThinkCraft
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We harness the power of AI and automation to transform businesses, 
-            delivering measurable impact through cutting-edge technology and strategic thinking.
+            ThinkCraft Scholar & Design Solutions is a creative and academic hub built to support learners and innovators globally. Our mission is to bridge the gap between <strong>knowledge and creation</strong>, providing design and documentation solutions that inspire confidence and success.
           </p>
         </div>
       </section>
@@ -38,7 +35,7 @@ const MoreAboutUs = () => {
               Our Mission
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Empowering businesses to thrive in the digital age through intelligent automation and innovative solutions.
+              We understand that excellence is built on clarity, precision, and creativity. Our multidisciplinary team includes CAD experts, academic writers, developers, and designers who share one goal: to help you deliver your best work.
             </p>
           </div>
 
@@ -46,33 +43,23 @@ const MoreAboutUs = () => {
             {[
               {
                 icon: Target,
-                title: "Purpose-Driven",
-                description: "Every solution we build is designed with your business goals at the forefront, ensuring measurable outcomes."
+                title: "Integrity",
+                description: "Every project is handled with authenticity and care."
               },
               {
                 icon: Lightbulb,
-                title: "Innovation First",
-                description: "We stay ahead of the curve, leveraging the latest AI and automation technologies to give you a competitive edge."
+                title: "Creativity",
+                description: "We believe every problem deserves a unique solution."
               },
               {
                 icon: TrendingUp,
-                title: "Growth Focused",
-                description: "Our strategies are built to scale, helping you expand operations while maintaining efficiency and quality."
+                title: "Precision",
+                description: "Accuracy defines everything we do."
               },
               {
                 icon: Award,
-                title: "Excellence Guaranteed",
-                description: "We're committed to delivering premium quality in every project, backed by rigorous testing and optimization."
-              },
-              {
-                icon: Users,
-                title: "Client Partnership",
-                description: "Your success is our success. We work closely with you to understand and exceed your expectations."
-              },
-              {
-                icon: Rocket,
-                title: "Future Ready",
-                description: "Building solutions that don't just meet today's needs but anticipate tomorrow's challenges."
+                title: "Collaboration",
+                description: "We work with you, not for you."
               }
             ].map((item, index) => (
               <Card 
@@ -100,22 +87,11 @@ const MoreAboutUs = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="animate-slide-up">
               <h2 className="text-heading-2 sm:text-heading-2 font-bold text-foreground mb-6">
-                Our Story
+                Our Promise
               </h2>
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Born from a vision to democratize access to cutting-edge technology, 
-                  we've built a company that bridges the gap between innovation and practical business solutions.
-                </p>
-                <p>
-                  What started as a small team of passionate technologists has grown into 
-                  a dynamic organization serving clients across industries, always maintaining 
-                  our core commitment to excellence and innovation.
-                </p>
-                <p>
-                  Today, we're proud to be at the forefront of the AI revolution, helping 
-                  businesses of all sizes harness the transformative power of automation 
-                  and intelligent systems.
+                  We aim to make every client experience simple, supportive, and successful. Whether you need help with a report, a 3D design, or a website concept, ThinkCraft is your partner in excellence.
                 </p>
               </div>
             </div>
@@ -149,17 +125,17 @@ const MoreAboutUs = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <Card className="p-12 bg-gradient-to-br from-primary/5 to-secondary/10 border-primary/20">
             <h2 className="text-heading-2 sm:text-heading-2 font-bold text-foreground mb-6">
-              Ready to Transform Your Business?
+              Ready to Get Started?
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Let's discuss how our innovative solutions can help you achieve your goals.
+              Contact us via WhatsApp: +1 (415) 418-5227 or reach out through our contact form. We'll guide you through every step.
             </p>
             <Button 
               size="lg"
               onClick={() => navigate('/contact')}
               className="bg-primary text-primary-foreground hover:shadow-[var(--glow-teal)] hover:scale-105 transition-all duration-300 text-lg px-10 py-6 rounded-xl font-semibold"
             >
-              Get in Touch
+              Contact Us
             </Button>
           </Card>
         </div>

@@ -35,10 +35,11 @@ const Services = () => {
         {/* Header */}
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-heading-1 md:text-heading-1 font-bold mb-3 md:mb-4 text-[#092C5D]">
-            Smart Websites for Businesses
+            Our Services
           </h2>
           <p className="text-body text-[#092C5D] max-w-4xl mx-auto leading-relaxed">
-            Build a high-performing online presence with ease. From SEO to automation, lead capturing, and stunning website design, our smart solutions empower your business. Manage everything effortlessly, even from your mobile device.
+            We don't just deliver — we collaborate. Each project, assignment, or design is crafted with precision, creativity, and purpose.
+            Whether it's a final-year academic project or a company portfolio, we walk with you from idea to completion, ensuring your work reflects quality and understanding.
           </p>
         </div>
 

@@ -16,24 +16,20 @@ const AboutUs = () => {
                   WHO WE ARE
                 </h2>
                 <p className="text-body-small text-[#092C5D] mb-4">
-                  Building the Future of Smart Websites
+                  ThinkCraft Scholar & Design Solutions
                 </p>
               </div>
 
               <div className="space-y-3">
                 <p className="text-body text-[#092C5D]/80 leading-relaxed">
-                  At ThinkCraft, we specialize in creating AI-powered, SEO-optimized, and automation-driven websites that work for you 24/7. We believe that a website should be more than just an online presence—it should be a powerful business tool that attracts leads, automates processes, and drives revenue effortlessly.
-                </p>
-                
-                <p className="text-body text-[#092C5D]/80 leading-relaxed">
-                  With years of experience in web design, digital marketing, and AI automation, our team is dedicated to helping businesses scale online without the hassle of traditional web development.
+                  <strong>ThinkCraft Scholar & Design Solutions</strong> is a multidisciplinary team passionate about design, learning, and innovation. We combine academic insight, technical skill, and creative design to craft meaningful solutions for students, researchers, and professionals.
                 </p>
               </div>
 
               <div className="pt-2">
-                <Button className="bg-[#00B3A4] hover:bg-[#00B3A4] /90 text-[#092C5D] font-bold px-6 py-2 rounded-lg"
+                <Button className="bg-[#00B3A4] hover:bg-[#00B3A4]/90 text-[#092C5D] font-bold px-6 py-2 rounded-lg"
                  onClick={() => navigate('/more-about-us')}>
-                  MORE ABOUT US
+                  Read More About Us →
                 </Button>
               </div>
             </div>

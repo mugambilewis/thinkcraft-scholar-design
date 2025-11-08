@@ -16,17 +16,17 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">THINKCRAFT</h3>
-                <p className="text-body-small text-white">WEBSITE AUTOMATION AGENCY</p>
+                <p className="text-body-small text-white">SCHOLAR & DESIGN SOLUTIONS</p>
               </div>
             </div>
             
             <p className="text-[#00B3A4] text-body-small font-medium">
-              Join the Smart Website Revolution Today!
+              Empowering Students. Supporting Professionals.
             </p>
             
             <div className="space-y-2">
               <p className="text-white text-body-small">Email: info@thinkcraft.com</p>
-              <p className="text-white text-body-small">Phone: (555) 123-4567</p>
+              <p className="text-white text-body-small">WhatsApp: +1 (415) 418-5227</p>
             </div>
           </div>
 
@@ -55,8 +55,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/book-appointment" className="text-[#00B3A4] hover:text-white transition-colors text-sm">
-                  BOOK APPOINTMENT
+                <Link to="/contact" className="text-[#00B3A4] hover:text-white transition-colors text-sm">
+                  GET STARTED
                 </Link>
               </li>
             </ul>

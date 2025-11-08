@@ -1,43 +1,16 @@
 import React from 'react';
 
 const TrustBar = () => {
-  const integrations = [
-    {
-      name: "Zapier",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/zapier.svg"
-    },
-    {
-      name: "Make",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/make.svg"
-    },
-    {
-      name: "WhatsApp API",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg"
-    },
-    {
-      name: "Google Workspace",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/google.svg"
-    },
-    {
-      name: "Notion",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/notion.svg"
-    },
-    {
-      name: "Slack",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/slack.svg"
-    },
-    {
-      name: "Twilio",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/twilio.svg"
-    },
-    {
-      name: "Stripe",
-      svg: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/stripe.svg"
-    }
+  const trustPoints = [
+    "Reliable & On-Time Delivery",
+    "Expert Designers & Academic Specialists",
+    "Global Student Support",
+    "Personalized Project Guidance",
+    "1000+ Completed Solutions"
   ];
 
   // Duplicate items to ensure seamless marquee scrolling
-  const scrollingItems = [...integrations, ...integrations];
+  const scrollingItems = [...trustPoints, ...trustPoints];
 
   return (
     <>
@@ -69,18 +42,12 @@ const TrustBar = () => {
                 maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)'
               }}
             >
-              {scrollingItems.map((integration, idx) => (
+              {scrollingItems.map((point, idx) => (
                 <div
-                  key={`${integration.name}-${idx}`}
+                  key={`${point}-${idx}`}
                   className="flex items-center gap-3 text-[#092C5D] hover:text-[#092C5D]/90 transition-colors"
                 >
-                  <img 
-                    src={integration.svg} 
-                    alt={integration.name}
-                    className="h-8 w-auto"
-                    style={{ filter: 'invert(9%) sepia(47%) saturate(3371%) hue-rotate(198deg) brightness(95%) contrast(98%)' }}
-                  />
-                  <span className="text-lg font-medium whitespace-nowrap">{integration.name}</span>
+                  <span className="text-lg font-medium whitespace-nowrap">{point}</span>
                 </div>
               ))}
             </div>
