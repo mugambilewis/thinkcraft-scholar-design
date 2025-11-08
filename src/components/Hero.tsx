@@ -68,7 +68,7 @@ const Hero = () => {
       <div className="container mx-auto px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Elegant card wrapper */}
-          <div className="md:p-12 lg:p-16">
+          <div className="md:p-8 lg:p-12">
             <div className="max-w-4xl mx-auto">
               
               {/* Centered Content */}
@@ -79,7 +79,7 @@ const Hero = () => {
                   <h1 className="text-heading-1 md:text-heading-1 lg:text-heading-1 font-bold leading-tight text-white drop-shadow-2xl">
                     <div className="text-3xl md:text-5xl font-bold mb-6 animate-fade-in">ThinkCraft Scholar & Design Solutions</div>
                     <div className="text-[#00B3A4] min-h-[1.2em] flex items-center justify-center">
-                      <span className="text-heading-2 md:text-heading-2 lg:text-heading-2">
+                      <span className="text-2xl md:text-heading-2 lg:text-heading-2">
                         {currentText}
                         <span className="animate-pulse">|</span>
                       </span>
