@@ -77,7 +77,7 @@ const Hero = () => {
                 {/* Headline with elegant styling */}
                 <div className="space-y-6">
                   <h1 className="text-heading-1 md:text-heading-1 lg:text-heading-1 font-bold leading-tight text-white drop-shadow-2xl">
-                    <div className="text-3xl md:text-5xl font-bold mb-6 animate-fade-in">Where Ideas Meet Precision — and Deadlines Meet Solutions.</div>
+                    <div className="text-3xl md:text-5xl font-bold mb-6 animate-fade-in">Where Ideas Meet Precision</div>
                     <div className="text-[#00B3A4] min-h-[1.2em] flex items-center justify-center">
                       <span className="text-2xl md:text-heading-2 lg:text-heading-2">
                         {currentText}
@@ -87,9 +87,7 @@ const Hero = () => {
                   </h1>
                  
                  <p className="text-body-large mb-8 mx-auto leading-relaxed text-white/95 drop-shadow-lg font-light">
-                  At <strong>ThinkCraft Scholar & Design Solutions</strong>, we help <strong>students and professionals</strong> transform concepts into complete, high-quality work — from <strong>academic projects and CAD models</strong> to <strong>websites, UI designs, and technical documentation</strong>.
-                  Experience guidance, creativity, and reliability — all in one place.
-
+                  We help <strong>students and professionals</strong> transform concepts into complete work — from <strong>academic projects and CAD models</strong> to <strong>websites and technical documentation</strong>.
                   </p>
                 </div>
                 

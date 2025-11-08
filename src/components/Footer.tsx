@@ -1,3 +1,4 @@
+import React from "react";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -67,28 +68,28 @@ const Footer = () => {
             <h4 className="text-white font-semibold text-sm uppercase tracking-wide">Services</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/services/seo" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
-                  SEO
+                <Link to="/services/cad-engineering-design" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
+                  CAD & ENGINEERING DESIGN
                 </Link>
               </li>
               <li>
-                <Link to="/services/lead-capturing" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
-                  LEAD CAPTURING
+                <Link to="/services/website-ui-design" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
+                  WEBSITE & UI DESIGN
                 </Link>
               </li>
               <li>
-                <Link to="/services/automation-ai" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
-                  AUTOMATION AND AI
+                <Link to="/services/academic-project-assistance" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
+                  ACADEMIC & PROJECT ASSISTANCE
                 </Link>
               </li>
               <li>
-                <Link to="/services/beautiful-web-design" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
-                  BEAUTIFUL WEB DESIGN
+                <Link to="/services/assignment-help-tutoring" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
+                  ASSIGNMENT HELP
                 </Link>
               </li>
               <li>
-                <Link to="/services/mobile-app-manageable" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
-                  MOBILE APP MANAGEABLE
+                <Link to="/services/documentation-formatting" className="text-white hover:text-[#00B3A4] transition-colors text-sm">
+                  DOCUMENTATION & FORMATTING
                 </Link>
               </li>
             </ul>
